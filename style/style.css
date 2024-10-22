@@ -1,0 +1,30 @@
+.btn-Resume{
+    width: 100px;
+    background-color: #DB202C; 
+    box-shadow: 0 4px 6px rgb(255, 0, 0); 
+    padding: 8px 16px; 
+    font-size: 14px;
+}
+
+.img-Circle {
+    width: 500px; /* Atur lebar sesuai kebutuhan */
+    height: 500px; /* Atur tinggi sesuai kebutuhan */
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-Circle img {
+    position: absolute;    
+    top: 50%;              /* Posisikan gambar di tengah vertikal */
+    right: -60px;           /* Menggeser gambar ke kiri untuk memotong bagian kanan */
+    width: 700px;          /* Lebar gambar lebih besar dari container */
+    height: auto;          /* Biarkan tinggi otomatis agar proporsional */
+    transform: translateY(-60%); /* Menggeser gambar ke atas setengah tinggi gambar */
+    object-fit: cover;     /* Menjaga proporsi gambar saat di-crop */
+}
+
+.picture-About{
+    width: 700px;
+    height: 300px;
+}
